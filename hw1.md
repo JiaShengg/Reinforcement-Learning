@@ -2,9 +2,7 @@
 
 2. By the linearity of expectation,
 
-$$
-\mathbb{E}_{S\sim\mathcal{D}^m}[L_S(h)] = \mathbb{E}_{S\sim\mathcal{D}^m}\left[\frac{1}{m} \sum_{i=1}^{m} \mathbf{1}_{h(x_i) \neq f(x_i)}\right]
-$$
+$$\mathbb{E}_{S\sim\mathcal{D}^m}[L_S(h)] = \mathbb{E}_{S\sim\mathcal{D}^m}\left[\frac{1}{m} \sum_{i=1}^{m} \mathbf{1}_{h(x_i) \neq f(x_i)}\right]$$
 $$
 = \frac{1}{m} \sum_{i=1}^{m} \mathbb{E}_{x_i\sim\mathcal{D}}[\mathbf{1}_{h(x_i) \neq f(x_i)}]
 $$
